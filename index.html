@@ -320,7 +320,7 @@
 
                 // Set PayPal link
                 // Replace 'YOUR_PAYPAL_EMAIL' with your actual PayPal email or PayPal.me link
-                paypalButton.href = `https://www.paypal.com/paypalme/mainegomedia/${day}`;
+                paypalButton.href = `https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mainegomedia@gmail.com&amount=${day}&currency_code=USD&item_name=Day${day}Fundraiser&custom=A_Foster`;
 
                 // Mark as selected
                 element.classList.add('selected');
